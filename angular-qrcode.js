@@ -55,8 +55,8 @@ angular.module('monospaced.qrcode', [])
             qr,
             $img,
             color = {
-              foreground: '#000',
-              background: '#fff'
+              foreground: '#fff',
+              background: '#000'
             },
             setColor = function(value) {
               color.foreground = value || color.foreground;
